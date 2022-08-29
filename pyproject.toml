@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "mock-robot"
+version = "0.1.0"
+description = "A test robot"
+authors = ["Your Name <you@example.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+rpyc = "^5.2.3"
+
+[tool.poetry.dev-dependencies]
+autopep8 = "^1.7.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
